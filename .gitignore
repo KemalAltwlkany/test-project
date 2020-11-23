@@ -1,1 +1,4 @@
 *.pyc
+/build
+/dist
+test_package_KemalAltwlkany.egg-info/
