@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="test-package-KemalAltwlkany", # Replace with your own username
-    version="0.0.1",
+    version="0.1.3",
     author="Kemal Altwlkany",
     author_email="kaltwlkany1@etf.unsa.ba",
-    description="An hopefully proper python package.",
+    description="A hopefully proper python package.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/KemalAltwlkany/test-project",
@@ -19,4 +19,9 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.7',
+    install_requires=[
+    	'numpy<=1.19.3',
+    	'pandas>=1.1.4',
+    	'plotly>=4.12.0'
+    ]
 )
